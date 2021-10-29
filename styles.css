@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: black;
+}
+
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.logo .stock{
+    font-weight: bolder;
+}
+.logo .pre {
+  color: red;
+  font-weight: lighter;
+}
+
+.links {
+  display: flex;
+}
+.links ul {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Dropdown List */
+
+.container{
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("stocks.jpg");
+    background-size: cover;
+}
+.maindiv{
+  height: 350px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+select{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-width: 1px;
+    outline: none;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    font-size: 18px;
+    margin-top: 40px;
+    outline: none;
+}
+
+.footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 52px;
+  align-items: center;
+}
+
+.footer-text{
+  color: white;
+  font-size: 20px;
+}
+
+.panda a{
+  color: red;
+  text-decoration: none;
+  font-size: 22px;
+}
